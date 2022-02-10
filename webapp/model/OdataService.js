@@ -10,7 +10,8 @@ sap.ui.define([], function () {
 			if (hostname.indexOf("webidetesting") > 0) {
 				return "/MOROCOLOR_HUB/";
 			} else {
-				return "http://quarkus-sap-mes-gpa-sap-poc.apps.poc-oc.poc.oc/rest/";
+				//return "http://quarkus-sap-mes-gpa-sap-poc.apps.poc-oc.poc.oc/rest/";
+				return "http://quarkus-sap-mes-project02.apps.ocp.conse.priv/rest/";
 			}
 		}
 	};
